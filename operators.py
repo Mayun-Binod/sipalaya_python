@@ -62,8 +62,8 @@ list_a = [1, 2, 3]
 list_b = [1, 2, 3]
 list_c = list_a
 
-print(list_a is list_c)      # True (same memory location)
-print(list_a is list_b)      # False (different memory location)
+print(list_a is list_c)      # True (same memory location like string,tuple,num)
+print(list_a is list_b)      # False (different memory location like set,list,dict)
 print(list_a is not list_b)  # True
 
 # 6. logical operator
@@ -90,3 +90,9 @@ print(~num1)        # -6 (bitwise not: ~0101 = 1010 in two's complement)
 print(num1 << 1)    # 10 (left shift: 0101 << 1 = 1010)
 print(num1 >> 1)    # 2 (right shift: 
 
+
+dict={'key':'binod'}
+dict1={'key':'binod'}
+print(id(dict))
+print(id(dict1))
+print( dict is dict1 )
