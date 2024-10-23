@@ -8,6 +8,7 @@
 # allow indexing  allow accessing data using index
 # allow duplicate . allow us to store same value multiple times
 
+
 # wap to take string as input from user and print true if it's palindrome otherwise false (hint:use slicing)
 sentence = input("Enter a string: ")
 print(sentence == sentence[::-1])
