@@ -9,7 +9,7 @@ print(string_palidrome==string_palidrome[::-1])
 
 # Count the occurrences of a character in a string.
 string_occur="python is a programming language python"
-print(string_occur.count("python"))
+print(string_occur.count("p"))
 
 # Convert a string "HELLO WORLD" to lowercase.
 convert_string="HELLO WORLD"
@@ -20,13 +20,13 @@ capitalized="my name is hari"
 print(capitalized.title())
 
 # Check if a string contains only numbers.
-string_contains_number="12345"
-string_contains_number2=12345
-print(string_contains_number == string_contains_number2)
+string_contains_number = "12345"
+string_contains_number2 = 12345
+print(string_contains_number == str(string_contains_number2))  
 
 # Replace spaces with underscores in a string.
-replace_spaces="hello my name"
-print(replace_spaces.replace("my","_"))
+replace_spaces = "hello my name"
+print(replace_spaces.replace("my", "_")) 
 
 # Check if a string is a valid number.
 string_valid="hello i am valid"
@@ -61,3 +61,5 @@ print(','.join(names))
 
 # .split()=> converts string into list
 # .join()=> converts list into string
+
+print(dir(str)) # shows all methods 
