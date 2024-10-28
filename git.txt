@@ -1,0 +1,35 @@
+1.first download git https://git-scm.com/downloads
+2.setup and install it.
+3.check git install or not.
+=>git --version
+4.Git is an open source and a version control system...
+
+# Why do we need git?
+=> It is used for version controlling
+=> It is used in team collaboration
+
+# Where do we store our code?
+=> In github / gitlab / bitbucket
+=> Github / gitlab / bitbucket understands the git language
+=> Github and gitlab are the cloud based software solution (web-application) running in the web, which understands
+the git terminologies and makes team collaboration easier.
+
+Q. Why not google drive? onedrive?
+=> Google drive / onedrive doesn't understand the git language (commits, branches,
+staging area and so on)
+=> Team collaboration is also not so helpful in cloud based drives
+steps are:-
+1.git config --global user.name "Mayun-binod"
+=>to check ->git config --global user.name
+2.git config --global user.email "shresthabinod334@gmail.com"
+=>to check ->git config --global user.email
+
+10.git remote -v <ssh link>
+11.ssh-keygen
+12.cd .ssh
+12.dir
+13.for windows
+->type id_rsa.pub
+for mac/linux
+->cat id_rsa.pub
+14.copy link <ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCrJWylZFN99KVMG3L+qDYJbwBV7Q/kDi2rn4JhZ8ZZpuxJwuvo6fgdKG2oBxYtD1Y2j+MityfIJ5ksqFaILeiNtAYf46J8DBvx3mK6lT4Y3bXcV+IcOm/y6C+qCwmCtSGNS8o4hS1/kRXRNgRUFNVIGG0cvHAtnxXjNtmgqyLn3U8ZyAOvNzv1uSEW2DDt6tWLXlUGhvuUEnDZkNJWvyBeQ+oy9nfggKu7aF0DLe4BpItqrHxH5TtNqoXqQwRgG/XVMLKh5TtHRo6etML0UXqxXyJRl+qS5wkGmPjbV7sOKFiBj5Qfv8pZnweB318Y80SX9QoQ7c5Vze8FiAb5vyh8V34LW0Gqv392/futeCvU+sQfDy1cJuNAy7WS0WtJmcoEepKTvjPpr3JLRSrRxeCS0Wpgv0neExi4+kxVbXZD8BdQlEo7BiwyBvT7CuBXZuoDoVInmgdUG35HaKvbNZo2bBHK7hLMJv3yUprdbD9fm9QrmphcKqH6rxdLYqdKAfc= binod@DESKTOP-88AIE30>
